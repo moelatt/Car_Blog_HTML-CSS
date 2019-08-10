@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/3e483ed6b4.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/simplelightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>RAV4 - Toyota of the future</title>
+</head>
+<body id="home">
+    <nav class="navBar">
+        <div class="container">
+            <h1 class="logo">2019 Toyota RAV4</h1>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Login">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ShowCase Section(A) -->
+    <section class="section-A">
+        <div class="container">
+            <div>
+                <h1>Toyota RAV4 of the future </h1><br>
+                <p>
+                        The Dynamic Force 2.5-liter inline four-cylinder engine produces 203
+                        horsepower for great acceleration. Paring it to the Direct Shift 8-speed 
+                        automatic Transmission shifts the power smoothly and efficiently,
+                        all the way to highway speeds.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <img src="img/rav4_9.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- Overlay Text  Section(B)-->
+    <section class="section-B">
+        <div class="overlay">
+            <div class="section-B-inner">
+                <h3>Fast and Beautiful</h3>
+                <h2> The Best Selling SUVs in America</h2>
+                <p>
+                        Redesigned for 2019, the Toyota RAV4 receives a variety of updates, 
+                        including a stylish new look, a new engine, and added safety and 
+                        technology features. No doubt they will contribute to the RAV4's status 
+                        as the best-selling small crossover SUV on the market.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section(C) -->
+    <section class="section-C">
+        <div class="gallery">
+            <a href="img/RAV4_8.jpg" class="big">
+                <img src="img/RAV4_8.jpg" alt="">
+            </a>
+            <a href="img/rav4_1.jpg" class="big">
+                <img src="img/rav4_1.jpg" alt="">
+            </a>
+            <a href="img/rav4_4.jpg" class="big">
+                <img src="img/rav4_4.jpg" alt="">
+            </a>
+            <a href="img/rav4_3.jpg" class="big">
+                <img src="img/rav4_3.jpg" alt="">
+            </a>
+            <a href="img/rav4_2.jpg" class="big">
+                <img src="img/rav4_2.jpg" alt="">
+            </a>
+            <a href="img/rav4_5.jpg" class="big">
+                <img src="img/rav4_5.jpg" alt="">
+            </a>
+            <a href="img/rav4_6.jpg" class="big">
+                <img src="img/rav4_6.jpg" alt="">
+            </a>
+            <!-- <a href="img/rav4_7.jpg" class="big">
+                <img src="img/rav4_7.jpg" alt="">
+            </a> -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-footer">
+        <div class="container">
+            <div>
+                <h2>More information about RAV4</h2>
+                <a href="https:twitter.com">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="https:facebook.com">
+                    <i class="fab fa-facebook fa-2x"></i>
+                 </a>
+                <a href="https:youtube.com" target="_blank">
+                     <i class="fab fa-youtube fa-2x"></i>
+                </a>
+                <a href="https:toyota.com">
+                        <i class="fab fa-toyota fa-2x"></i>
+                </a>
+            </div>
+            <div>
+                <h3>Company Info</h3>
+                <ul>
+                    <li><a href="https://www.toyota.com/" target="_blank"> All Products</a></li>
+                    <li><a href="https://www.toyota.com/dealers/">Find Dealers</a></li>
+                    <li><a href="https://www.toyota.com/local-specials/">Local special</a></li>
+                    <li><a href="https://www.toyota.com/rav4/accessories/exterior">Accessories</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Blog Posts</h3>
+                <ul>
+                    <li><a href="#" > Developer Info</a></li>
+                    <li><a href="#">Contact Info</a></li>
+                    <li><a href="#">HTML code</a></li>
+                    <li><a href="#">CSS code</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Subscribe</h3>
+                <p>Please enter your email to subscribe my blog Posts</p>
+               <form name = "email-form" >  <!--  method = "POST" data-netlify="false"  -->
+                    <div class="email-form">
+                        <span class="form-control-wrap">
+                            <input 
+                            type="email" 
+                            name = "email" 
+                            id = "email" 
+                            size="40"
+                            class="form-control" 
+                            placeholder = "Email">
+                        </span>
+                        <script type="text/javascript">
+                            function giveAlert(){
+                                alert("Data base is not set up yet. Sorry for inconvenience!")
+                            }
+                        </script>
+                        <button type="submit" class="form-control submit" onclick="giveAlert()">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <!-- javaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>$(function(){
+        const $gallery = $('.gallery a').simpleLightbox();
+    })
+    </script>
+</body>
+</html>
